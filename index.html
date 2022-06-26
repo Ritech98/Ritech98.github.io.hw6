@@ -471,21 +471,21 @@
           <span class="form-title">Zostaw swoje dane w formularzu poniżej</span>
           <div class="form-field top-title">
             <label class="form-label" for="name">Imie</label>
-            <input class="form-input" type="text" name="name" id="name" />
+            <input class="form-input" type="text" name="name" id="name" required />
             <svg class="input-icon" width="12" height="12">
               <use href="./images/icons.svg#icon-name"></use>
             </svg>
           </div>
           <div class="form-field">
             <label class="form-label" for="tel">Telefon</label>
-            <input class="form-input" type="tel" name="tel" id="tel" />
+            <input class="form-input" type="tel" name="tel" id="tel" required />
             <svg class="input-icon" width="12" height="12">
               <use href="./images/icons.svg#icon-tel"></use>
             </svg>
           </div>
           <div class="form-field">
             <label class="form-label" for="email">Email</label>
-            <input class="form-input" type="email" name="email" id="email" />
+            <input class="form-input" type="email" name="email" id="email" required />
             <svg class="input-icon" width="12" height="12">
               <use href="./images/icons.svg#icon-mail"></use>
             </svg>
@@ -498,6 +498,7 @@
               id="comment"
               rows="5"
               placeholder="Wprowadź tekst"
+              required
             ></textarea>
           </div>
           <div class="form-field-check">
@@ -507,6 +508,7 @@
                 type="checkbox"
                 name="policy"
                 id="policy"
+                required
               />
               <span class="icon-check"></span>
               Oświadczam iż akceptuję
